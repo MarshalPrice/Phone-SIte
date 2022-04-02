@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody&family=BIZ+UDMincho&family=Bebas+Neue&family=Lobster&family=Oswald:wght@700&display=swap');
+html  {
+    background-color: rgb(77,49,137);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+.Circle{
+    position: absolute;
+    right: 15.85in;
+    top: 1.7in;
+    width: 100px;
+    height: 200px;
+    z-index: -1;
+  }
+.Krug-Photo{
+    width: 650px;
+    height: 600px;
+}
+.phone{
+  position: absolute;
+  right: 13.40in;
+  top: 1in;
+  width: 2in;
+  height: 3in;
+  
+    }
+
+.palka{
+    position: absolute;
+    background-color: rgb(230, 236, 149); ;
+    width: 100in;
+    height: 1.5in;
+    top: 10.2in;
+    
+}
+.Apple{
+  position: absolute;
+  right: 5.37in;
+  top: 7.64in;
+}
+.Apple_Photo{
+  width: 175px;
+  height: 83.5px;
+
+}
+.Android{
+    position: absolute;
+    right: 2.80in;
+    top: 7.5in;
+}
+.Android_Photo
+{
+ height: 110px;
+ width: 170px;
+}
+.phone-center{
+    display: block;
+    margin:auto;
+}
+    
+.King-Kubik{
+    position: absolute;
+    right: 3.60in;
+    top: 4.2in;
+}
+@font-face {
+  font-family: 'Lobster', cursive;
+  src: url('Shrift/Shrift2/Lobster/Lobster-Regular.ttf');
+}
+.BIGBON_Text{
+    position: absolute;
+    right: 3.26in;
+    top: 0.5in;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30pt; 
+    color: rgb(183, 236, 113);
+    letter-spacing: 9px
+} 
+
+
+
+.DOSHIRAK_Text{
+  position: absolute;
+    right: 4.10in;
+    top: 2.1in;
+    font-family: 'Bebas Neue';
+    color: white;
+    font-size: 18pt;
+    letter-spacing: 3px
+    
+}
+.T
+
+#particles.js{
+    height:100vh;
+    
+  }

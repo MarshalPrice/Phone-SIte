@@ -1,0 +1,39 @@
+	body {
+	background-color: #251050;
+	color: #fff;
+}
+ 
+/* Малые девайсы («ландшафтные телефоны», >= 576px) */
+@media (min-width: 576px) {
+	body {
+		background: url(../images/kosmos-sm.jpg);
+	}
+}
+ 
+/* Средние девайсы («таблетки», >= 768px) */
+@media (min-width: 768px) {
+	body {
+		background: url(../images/kosmos-md.jpg);
+	}
+}
+ 
+/* Большие девайсы (десктопы, >= 992px) */
+@media (min-width: 768px) {
+	body {
+		background: url(../images/kosmos-lg.jpg);
+	}
+}
+ 
+/* Экстрабольшие девайсы (большие десктопы, >= 1200px) */
+@media (min-width: 1200px) {
+	body {
+		background: url(../images/kosmos-lx.jpg);
+	}
+}
+ 
+/* общие стили для всех девайсов */
+body {
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
